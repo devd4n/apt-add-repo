@@ -13,7 +13,7 @@ the apt-add-repo script replaces the command "add-apt-repository" on debian Syst
 ## Usage-Examples
 ```
 apt-add-repo sublime-text https://download.sublimetext.com/ https://download.sublimetext.com/sublimehq-pub.gpg apt/stable/
-apt-add-repo signal-desktop https://updates.signal.org/desktop/apt/keys.asc https://updates.signal.org/desktop/apt xenial main
+apt-add-repo signal-desktop https://updates.signal.org/desktop/apt https://updates.signal.org/desktop/apt/keys.asc xenial main
 
 ```
 
