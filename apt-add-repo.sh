@@ -1,4 +1,8 @@
 #!/bin/bash
+
+sudo apt update
+sudo apt install file -y
+
 repo_name=$1
 repo_uri=$2
 key_uri=$3
